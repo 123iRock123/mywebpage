@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+  </head>
+  <body background="images/wallpapers.jpg">
+    <div class="scrollmenu">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="aboutme.html">About Me</a>
+    </div>
+    <h1> <p style="font-size : 200%;"> Welcome to my Home Page!</h1>
+    <img src="images/earth.png" height="250" align="left" hspace="5px">
+    <div class="small">
+    <p style="font-size : 200%;">My name is Eric and I go to Damien High School
+    in La Verne, CA. If you would like to know more about me, check out my <a href="aboutme.html">About Me</a> page! CA. If you would like to see some amazing projects I have created, Check out my <a href="portfolio.html">portfolio page</a>.
+   </p>
+    <br>
+    </div>
+    <h1>Look at My School</h1>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVg8GdBpAuRhUOjWBqWrj5_8V9Q_dXMVw&callback&callback=initMap"
+    
+  </body>
+</html>
+
+

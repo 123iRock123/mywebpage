@@ -1,0 +1,95 @@
+
+body{
+     font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+ 	 color: #ffffff;
+ 	    background-color: #ffffff};
+}
+
+h1  {
+    font-size: 5em;
+ 	text-align: left;
+ 	color: #ffffff;
+}
+
+table {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: left;
+ 	border-collapse: collapse;
+}
+
+tr   {
+	border: none;
+	text-align: left;
+	background-color:#transparent;
+}
+
+th   {
+    text-align: left;
+	color: #ffffff;
+	background-color: #333333;
+}
+
+div.small {
+    word-wrap: break-word;
+    width: 800px;
+}
+
+div.scrollmenu {
+    background-color: #169;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #666;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+    .image
+{
+    background:url(images/earth.png);
+    height:100px;
+    width:100px;
+    display: block;
+    float:left;
+}
+
+.image  a {
+    display: none;
+}
+
+.image  a:hover {
+    display: block;
+    color: white;
+}
